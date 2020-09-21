@@ -13,7 +13,14 @@ public class App
     public static void main(String[] args)
     {
     	String message="Hello, World";
+
     	LOG.info("hello");
     	LOG.info("hi");
+
+    	LOG.debug(message + "will be printed on debug");
+    	LOG.info(message + "will be printed on info");
+    	LOG.info("first change at remote server");
+        System.out.println( message );
+
     }
 }
